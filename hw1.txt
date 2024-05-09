@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[l]{\textcolor{blue}{Homework Assignment}}
+
+
+\title{\textcolor{red}{\underline{Homework}}}
+\author{\textcolor{green}{\MakeUppercase{Fadel Jaber}}}
+\date{\textcolor{blue}{\textit{April 15, 2024}}}
+\definecolor{page}{RGB}{255,255,102}
+\begin{document}
+\pagecolor{page}
+\maketitle
+\begin{abstract}
+This homework assignment covers various LaTeX commands and ele-
+ments. Your task is to replicate this document using LaTeX.
+\end{abstract}
+\tableofcontents
+\newpage
+
+\section {\textcolor{red}{Introduction}}
+This is the introduction section of the homework assignment.
+
+\subsection{Objective}
+The objective of this assignment is to familiarize yourself with LaTeX syntax and commands.
+
+\section{Nested Lists}
+Design your own nested list
+
+\subsection{Examples}
+\begin{enumerate}
+    \item item1
+    \begin{itemize}
+        \item item 1-1
+        \begin{enumerate}
+            \item item 1-2
+        \end{enumerate}
+    \end{itemize}
+\end{enumerate}
+
+\section{Tasks}
+\begin{enumerate}
+    \item Create a LaTeX document with the provided title, author, and date information.
+    \item Add an abstract.
+    \item Include a table of contents.
+    \item Use different font styles such as bold, italic, and underlined.
+    \item Create nested lists using itemize and enumerate environments.
+    \item Change page color and text color using the xcolor package.
+    \item Use the fancyhdr package to customize headers and footers.
+    \item Apply different line spacing using the setspace package.
+\end{enumerate}
+This text is right aligned.
+
+This text is centered.
+
+\section*{Conclusion}
+This concludes the homework assignment.
+
+\section*{Acknowledgements}
+I would like to thank everyone who contributed to this homework assignment.
+
+\section*{References}
+\begin{enumerate}
+    \item LaTeX Documentation
+\end{enumerate}
+
+\end{document}
